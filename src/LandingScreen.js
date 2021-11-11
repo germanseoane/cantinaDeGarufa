@@ -1,5 +1,6 @@
 import React from "react";
 import pizza from "./assets/pizza.jpg";
+import logo from "./assets/logo.png";
 import "./LandingScreen.css";
 
 const LandingScreen = () => {
@@ -16,6 +17,12 @@ const LandingScreen = () => {
           overflow: "hidden",
         }}
       />
+      <div className="logo-container">
+        <div className="text1">
+          <h4 style={{ marginTop: -18 }}>La Cantina de Garufa</h4>
+          <img src={logo} alt="logo" className="image-logo" />
+        </div>
+      </div>
       <div className="glass-container">
         <div className="text">
           <div className="container">
@@ -34,7 +41,7 @@ const LandingScreen = () => {
       </div>
       <div className="footer">
         <p style={{ marginLeft: 12, fontSize: 14 }}>
-          La Cantina de Garufa - Direccion: 4 de julio 3171.
+          La Cantina de Garufa - Direccion: 4 de julio 3171
         </p>
       </div>
     </>
