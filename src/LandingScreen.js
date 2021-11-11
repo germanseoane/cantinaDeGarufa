@@ -9,10 +9,11 @@ const LandingScreen = () => {
         src={pizza}
         alt="pizza"
         style={{
-          height: "100vh",
+          height: "96vh",
           width: "100%",
           position: "absolute",
           objectFit: "cover",
+          overflow: "hidden",
         }}
       />
       <div className="glass-container">
