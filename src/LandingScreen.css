@@ -22,7 +22,7 @@ h2 {
   border-radius: 15px;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   font-size: 2rem;
-  height: 208px;
+  height: 178px;
   overflow: hidden;
   position: absolute;
   width: fit-content;
@@ -146,16 +146,16 @@ h2 {
   .glass-container {
     margin-top: 24vh;
     width: 92%;
-    height: 190px;
+    height: 178px;
   }
   .para {
-    font-size: 16px;
+    font-size: 18px;
   }
   .footer {
     flex-direction: column;
   }
   .title-footer {
-    font-size: 12.6px;
+    font-size: 1px;
     margin-left: 4px;
   }
   .title-info {
@@ -170,7 +170,7 @@ h2 {
   }
 }
 @media (max-width: 296px) {
-  h2 {
-    font-size: 22px;
+  .para {
+    font-size: 16px;
   }
 }

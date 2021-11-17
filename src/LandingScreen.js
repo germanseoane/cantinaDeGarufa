@@ -32,8 +32,7 @@ const LandingScreen = () => {
       <div className="glass-container">
         <div className="text">
           <div className="container">
-            <h2>La Cantina de Garufa</h2>
-            <p className="para">Pizzería y Cocina - Horno a Leña</p>
+            <h2 className="para">Pizzería y Cocina - Horno a Leña</h2>
 
             <span
               style={{ marginTop: 12 }}
