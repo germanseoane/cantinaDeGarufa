@@ -21,7 +21,6 @@ const LandingScreen = () => {
       />
       <div className="logo-container">
         <div className="text1">
-          <h4 style={{ marginTop: -18 }}>La Cantina de Garufa</h4>
           <img src={logo} alt="logo" className="image-logo" />
         </div>
       </div>
@@ -70,7 +69,7 @@ const LandingScreen = () => {
         <div style={{ display: "flex", flexDirection: "row" }}>
           <MdLocationPin />
           <p className="title-footer">
-            La Cantina de Garufa - Dir: 4 de julio 3171
+            La Cantina De Garufa - Dir: 4 de julio 3171
           </p>
         </div>
         <div style={{ display: "flex", flexDirection: "row" }}>

@@ -9,13 +9,15 @@
 }
 .logo-container:before {
   background-color: rgba(43, 40, 40, 0.3);
-  backdrop-filter: blur(4px) saturate(100%) contrast(80%) brightness(100%);
+  backdrop-filter: blur(4px) saturate(100%) contrast(80%) brightness(120%);
   content: "";
   height: 100%;
   position: absolute;
   width: 100%;
 }
-
+h2 {
+  font-size: 38px;
+}
 .glass-container {
   border-radius: 15px;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
@@ -39,13 +41,13 @@
   width: 100%;
 }
 .image-logo {
-  height: 90%;
+  height: 100%;
 }
 .text1 {
   color: #f1f4f8;
   margin-left: 22px;
   margin-right: 22px;
-  margin-top: 30px;
+  margin-top: 6px;
   position: relative;
   z-index: 2;
   font-size: 26px;
@@ -139,14 +141,14 @@
 }
 @media (max-width: 604px) {
   h2 {
-    font-size: 22px;
+    font-size: 24px;
   }
   .glass-container {
     margin-top: 30vh;
     height: 168px;
   }
   .para {
-    font-size: 14px;
+    font-size: 16px;
   }
   .footer {
     flex-direction: column;
@@ -160,13 +162,14 @@
   }
   .glass-container {
     width: 92%;
+    height: 190px;
   }
   .text-info {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 @media (max-width: 296px) {
   h2 {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
