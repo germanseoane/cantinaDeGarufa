@@ -161,13 +161,12 @@ h2 {
   }
   .title-info {
     width: 92%;
+
+    margin-top: 58vh;
   }
 
   .text-info {
     font-size: 14px;
-  }
-  .title-info {
-    margin-top: 58vh;
   }
 }
 @media (max-width: 296px) {

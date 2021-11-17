@@ -57,7 +57,7 @@ const LandingScreen = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <BsInstagram size={24} />
+            <BsInstagram size={24} style={{ marginLeft: 10 }} />
           </a>
           <a
             className="text-info"
