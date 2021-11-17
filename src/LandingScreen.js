@@ -2,7 +2,12 @@ import React from "react";
 import pizza from "./assets/pizza.jpg";
 import logo from "./assets/logo.png";
 import "./LandingScreen.css";
-import { BsTelephone, BsInstagram, BsFacebook } from "react-icons/bs";
+import {
+  BsTelephone,
+  BsInstagram,
+  BsFacebook,
+  BsWhatsapp,
+} from "react-icons/bs";
 import { MdLocationPin } from "react-icons/md";
 
 const LandingScreen = () => {
@@ -62,6 +67,14 @@ const LandingScreen = () => {
             rel="noreferrer"
           >
             <BsFacebook size={24} style={{ marginLeft: 10 }} />
+          </a>
+          <a
+            className="text-info"
+            href="https://wa.me/59892480080"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <BsWhatsapp size={24} style={{ marginLeft: -10 }} />
           </a>
         </p>
       </div>
