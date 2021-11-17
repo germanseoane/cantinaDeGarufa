@@ -98,7 +98,7 @@
   height: fit-content;
   overflow: hidden;
   position: absolute;
-  width: 92%;
+  width: fit-content;
   left: 0;
   right: 0;
   margin-left: auto;
