@@ -1,7 +1,21 @@
 .back-btn {
-  height: 100px;
-  width: 180px;
+  height: 48px;
+  width: 100%;
+  margin-left: auto;
+  align-self: center;
+  justify-self: center;
+  border: none;
+  background-color: rgb(231, 159, 52);
+  font-size: 1.2rem;
+  font-family: "Charm", cursive, "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 .modal-img {
   width: 100%;
+}
+.main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

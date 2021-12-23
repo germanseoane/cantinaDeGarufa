@@ -9,15 +9,17 @@ import "./Modal.css";
 const Modal = ({ setScreen }) => {
   return (
     <>
-      <button className="back-btn" onClick={() => setScreen("landing")}>
-        Home
-      </button>
-      <div>
-        <img className="modal-img" src={carta1} alt="carta1" />
-        <img className="modal-img" src={carta2} alt="carta2" />
-        <img className="modal-img" src={carta3} alt="carta3" />
-        <img className="modal-img" src={carta4} alt="carta4" />
-        <img className="modal-img" src={carta5} alt="carta5" />
+      <div className="main-div">
+        <button className="back-btn" onClick={() => setScreen("landing")}>
+          Volver
+        </button>
+        <div>
+          <img className="modal-img" src={carta1} alt="carta1" />
+          <img className="modal-img" src={carta2} alt="carta2" />
+          <img className="modal-img" src={carta3} alt="carta3" />
+          <img className="modal-img" src={carta4} alt="carta4" />
+          <img className="modal-img" src={carta5} alt="carta5" />
+        </div>
       </div>
     </>
   );
