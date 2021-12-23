@@ -131,7 +131,7 @@ h2 {
   margin-top: 30px;
   position: relative;
   z-index: 2;
-  font-size: 16px;
+  font-size: 20px;
   align-self: center;
   justify-self: center;
   text-align: center;
@@ -139,6 +139,19 @@ h2 {
 .icon-links {
   text-decoration: none;
   color: white;
+}
+.main-btn {
+  width: 180px;
+  height: 80px;
+  margin-top: 10px;
+  border-radius: 4%;
+  background-color: rgb(230, 173, 67);
+  outline: none;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-btn:hover {
+  background-color: rgb(236, 155, 4);
 }
 @media (max-width: 604px) {
   h2 {

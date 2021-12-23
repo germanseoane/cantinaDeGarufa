@@ -10,7 +10,7 @@ import {
 } from "react-icons/bs";
 import { MdLocationPin } from "react-icons/md";
 
-const LandingScreen = () => {
+const LandingScreen = ({ setScreen }) => {
   return (
     <>
       <img
@@ -34,21 +34,17 @@ const LandingScreen = () => {
           <div className="container">
             <h2 className="para">Pizzería y Cocina - Horno a Leña</h2>
 
-            <span
-              style={{ marginTop: 12 }}
-              className="glf-button"
-              data-glf-cuid="ff53331e-c441-47b2-a1a4-9192eb5d0893"
-              data-glf-ruid="a89a26bc-4820-4cdd-84e9-fed64518319a"
-            >
-              Haga su pedido
-            </span>
+            <button className="main-btn" onClick={() => setScreen("modal")}>
+              Vea la carta
+            </button>
           </div>
         </div>
       </div>
       <div className="title-info">
         <p className="text-info">
-          Abierto de Martes a Domingo de 20 a 00hs. Viernes y Sabados hasta la
-          1am
+          Abierto de Martes a Domingo de 20 a 00hs.
+          <br />
+          Pedidos al tel: 2622 86 19
         </p>
         <p className="text-info">
           <a
@@ -77,6 +73,7 @@ const LandingScreen = () => {
           </a>
         </p>
       </div>
+
       <div className="footer">
         <div style={{ display: "flex", flexDirection: "row" }}>
           <MdLocationPin />
